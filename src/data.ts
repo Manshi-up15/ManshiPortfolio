@@ -100,6 +100,20 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: "bntechnologies",
+    role: "Graphic Designer",
+    company: "B&N Technologies",
+    duration: "2025 - Present",
+    bullets: [
+      "Designing intuitive and user-centered interfaces for web and mobile applications at a full-service software & AI solutions company.",
+      "Creating wireframes, user flows, and high-fidelity prototypes using Figma; translating business requirements into functional, polished designs.",
+      "Collaborating with developers and stakeholders to maintain design systems and ensure visual consistency across all products.",
+      "Improving usability, accessibility, and overall user experience across client-facing digital products.",
+      "Producing video edits and motion content for client campaigns alongside core UI/UX deliverables."
+    ],
+    colorClass: "bg-primary"
+  },
+  {
     id: "studique",
     role: "Design Lead",
     company: "Studique",
@@ -109,7 +123,7 @@ export const EXPERIENCES: Experience[] = [
       "Designing, testing, and maintaining a scalable modular design system with responsive layouts for web & mobile.",
       "Fostering atomic design methodologies enabling 40% faster frontend component deployment."
     ],
-    colorClass: "bg-primary"
+    colorClass: "bg-secondary"
   },
   {
     id: "codingsamurai",
@@ -121,7 +135,7 @@ export const EXPERIENCES: Experience[] = [
       "Collaborated intimately with senior frontend developers to inspect pixel layouts, guaranteeing perfect style fidelity.",
       "Audited legacy registration flows, boosting signup completion by 18%."
     ],
-    colorClass: "bg-secondary"
+    colorClass: "bg-[#0096cc]"
   }
 ];
 

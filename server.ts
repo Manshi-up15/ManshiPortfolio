@@ -69,10 +69,15 @@ Here is the authentic truth regarding Manshi's Portfolio and Experience:
   * Interactive WebGL/3D Graphics (Three.js WebGL scenes)
 
 - **Detailed Work History**:
-  1. **Design Lead** at Studique (Jun 2025 - Present):
+  1. **Graphic Designer** at B&N Technologies (2025 - Present):
+     * Designing intuitive, user-centered interfaces for web and mobile apps at a full-service software & AI solutions company.
+     * Creating wireframes, user flows, and high-fidelity Figma prototypes; translating business requirements into functional designs.
+     * Maintaining design systems, ensuring visual consistency, and improving usability & accessibility across all products.
+     * Producing video edits and motion content for client campaigns alongside UI/UX deliverables.
+  2. **Design Lead** at Studique (Jun 2025 - Present):
      * Directing the conceptual design and layout strategy for the Studique student-centric campus network.
      * Building, scaling, and maintaining a reusable design system and React component guidelines.
-  2. **UI/UX Design Intern** at Coding Samurai (Jun 2025 - Jul 2025):
+  3. **UI/UX Design Intern** at Coding Samurai (Jun 2025 - Jul 2025):
      * Mocked and built highly interactive web prototypes for high-traffic client experiences.
      * Actively joined weekly alignment reviews with frontend engineers to preserve layout fidelity.
 
