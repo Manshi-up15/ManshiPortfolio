@@ -1,0 +1,6 @@
+{
+  "name": "Manshi Portfolio",
+  "description": "High-fidelity UI/UX Designer & Frontend Developer portfolio featuring a Brutalist vs Editorial theme switcher and a server-side Gemini AI Career Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

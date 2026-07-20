@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Eb+Garamond:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+  --font-garamond: "Eb Garamond", serif;
+  --font-manrope: "Manrope", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-dmsans: "DM Sans", sans-serif;
+}
+
+/* Custom styles for Brutalist style */
+.brutalist-card {
+  background: #ffffff;
+  border: 4px solid #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.brutalist-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px 0px #000000;
+}
+.brutalist-button {
+  background: #000000;
+  color: #ffffff;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px 0px #e040a0;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.brutalist-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #e040a0;
+}
+.brutalist-button-primary {
+  background: #e040a0;
+  color: #ffffff;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.brutalist-button-primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+.brutalist-button-secondary {
+  background: #7c52aa;
+  color: #ffffff;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.brutalist-button-secondary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+.brutalist-button-yellow {
+  background: #FFCC00;
+  color: #000000;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.brutalist-button-yellow:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+.grid-texture {
+  background-image: linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: 0.03;
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom styles for Sahara style */
+.editorial-heading {
+  font-family: 'Eb Garamond', serif;
+  letter-spacing: -0.01em;
+}
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e6e0d6;
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+  border-radius: 0.5rem;
+}
+.project-card:hover {
+  border-color: #c2652a;
+  box-shadow: 0 30px 60px -12px rgba(194, 101, 42, 0.12);
+  transform: translateY(-8px);
+}
+.btn-sahara {
+  transition: all 0.3s ease;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+}
+.btn-sahara:hover {
+  transform: translateY(-2px);
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #d8d0c8;
+  transform: translateX(-50%);
+}
+@media (max-width: 768px) {
+  .timeline-item::before {
+    left: 24px;
+  }
+}
