@@ -817,12 +817,14 @@ export default function App() {
       </footer>
 
       {/* PORTFOLIO ACTIVE PROTOTYPE DETAIL EXPLORER MODAL */}
-      <ProjectDetailModal 
-        project={selectedProject} 
-        isOpen={isModalOpen} 
-        onClose={() => setIsModalOpen(false)} 
-        activeTheme={activeTheme}
-      />
+      {isModalOpen && selectedProject && (
+        <ProjectDetailModal 
+          project={selectedProject} 
+          isOpen={isModalOpen} 
+          onClose={() => setIsModalOpen(false)} 
+          activeTheme={activeTheme}
+        />
+      )}
 
       {/* FLOAT INTELLIGENT CAREER COMPANION ROBOT */}
       <AIChatBot activeTheme={activeTheme} />

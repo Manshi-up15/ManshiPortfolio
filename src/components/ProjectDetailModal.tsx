@@ -23,7 +23,7 @@ export default function ProjectDetailModal({ project, isOpen, onClose, activeThe
   useEffect(() => {
     document.body.style.overflow = "hidden";
     return () => {
-      document.body.style.overflow = "unset";
+      document.body.style.overflow = "";
     };
   }, []);
 
