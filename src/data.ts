@@ -65,6 +65,36 @@ export const PROJECTS: Project[] = [
     timeline: "March 2026 - April 2026",
     deliverables: ["Custom Vertex & Fragment Shaders", "Device Inertia Motion Maps", "Orbit controls integration", "Real-Time Framerate Optimizer"],
     mockupType: "canvas"
+  },
+  {
+    id: "studique",
+    title: "Studique",
+    description: "Led the design system and UI/UX development for Studique — a campus student network used by 17,000+ students.",
+    extendedDescription: "As Design Lead at Studique, I architected and maintained a scalable design system from the ground up — defining color tokens, typography scales, spacing grids, and reusable component libraries in Figma. The platform serves over 17,000+ students with responsive layouts tailored for both mobile and desktop, backed by thorough user research, wireframing sessions, and high-fidelity interactive prototypes. My work reduced frontend inconsistency by 40% and accelerated component delivery across engineering teams.",
+    tags: ["Figma", "Design Systems", "Wireframing", "Prototyping"],
+    category: "Design System",
+    imageUrl: "/assets/project_studique.png",
+    primaryColor: "#4f46e5",
+    accentClass: "bg-indigo-600 text-white border-2 border-indigo-800",
+    role: "Design Lead",
+    timeline: "Jun 2025 - Present",
+    deliverables: ["End-to-End Design System", "Responsive Layout Guidelines", "User Flow Diagrams", "High-Fidelity Prototypes", "Component Library (60+ components)"],
+    mockupType: "dashboard"
+  },
+  {
+    id: "ytcalc",
+    title: "YT Playlist Calculator",
+    description: "Calculates the total duration of any YouTube playlist instantly — a handy productivity utility for learners and binge-watchers.",
+    extendedDescription: "A lightweight browser-based utility that accepts a YouTube playlist URL and computes the total watch time with breakdowns per video. It supports playback speed adjustments (1x, 1.5x, 2x) so users know exactly how long a course or series will take at their preferred speed. Built with vanilla JavaScript and the YouTube Data API, it's fast, dependency-free, and designed around a clean, focused UX.",
+    tags: ["JavaScript", "YouTube API", "Utility Tool"],
+    category: "Utility Tool",
+    imageUrl: "/assets/project_ytcalc.png",
+    primaryColor: "#ff0000",
+    accentClass: "bg-red-600 text-white border-2 border-red-800",
+    role: "Solo Creator",
+    timeline: "2025",
+    deliverables: ["Playlist Duration Engine", "Playback Speed Estimator", "Per-Video Time Breakdown", "Clean Single-Page UI"],
+    mockupType: "studio"
   }
 ];
 
