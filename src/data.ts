@@ -103,7 +103,7 @@ export const EXPERIENCES: Experience[] = [
     id: "bntechnologies",
     role: "Graphic Designer",
     company: "B&N Technologies",
-    duration: "2025 - Present",
+    duration: "2026 - Present",
     bullets: [
       "Designing intuitive and user-centered interfaces for web and mobile applications at a full-service software & AI solutions company.",
       "Creating wireframes, user flows, and high-fidelity prototypes using Figma; translating business requirements into functional, polished designs.",
